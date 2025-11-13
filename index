@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>My Simple Blog</title>
+  <style>
+    body{font-family:system-ui,Segoe UI,Arial;max-width:760px;margin:40px auto;padding:0 16px;line-height:1.6}
+    header{border-bottom:1px solid #ddd;margin-bottom:24px}
+    h1{margin:8px 0}
+    article{margin-bottom:28px}
+    .date{color:#666;font-size:0.9em}
+    nav a{margin-right:12px}
+  </style>
+</head>
+<body>
+  <header>
+    <h1>My Simple Blog</h1>
+    <p>Short tagline about your blog</p>
+    <nav><a href="index.html">Home</a> <a href="about.html">About</a></nav>
+  </header>
+
+  <main>
+    <article>
+      <h2>First Post</h2>
+      <p class="date">Nov 13, 2025</p>
+      <p>Hello! This is my first post. Edit <code>index.html</code> to update content.</p>
+    </article>
+
+    <article>
+      <h2>Second Post</h2>
+      <p class="date">Nov 12, 2025</p>
+      <p>Another post — add more <code>&lt;article&gt;</code> blocks for new posts.</p>
+    </article>
+  </main>
+
+  <footer>
+    <p>© 2025 Your Name • <a href="mailto:you@example.com">you@example.com</a></p>
+  </footer>
+</body>
+</html>
